@@ -1,0 +1,28 @@
+.title {
+  font-family: verdana, arial;
+  font-size: 32px;
+  display: flex;
+  color: #1c439b;
+  padding: 4px;
+}
+
+img {
+  width: 200px;
+  height: 50px;
+  position: relative;
+}
+
+.sub-title {
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
