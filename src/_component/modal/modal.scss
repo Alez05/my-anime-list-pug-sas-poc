@@ -7,43 +7,6 @@ input[type="password"] {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
-.nav,
-.button-grp {
-  display: flex;
-  padding: 0.5rem 2rem;
-}
-
-.nav {
-  justify-content: space-between;
-}
-
-.button-grp {
-  gap: 8px;
-}
-
-.btn-signup,
-.btn-login {
-  border: #2e51a2 2px solid;
-  border-radius: 2px;
-  display: inline-block;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 100%;
-  padding: 4px 0;
-  text-align: center;
-  text-decoration: none;
-  width: 90px;
-  height: 25px;
-}
-
-.btn-signup {
-  background-color: #2e51a2;
-  color: rgb(255, 255, 255);
-}
-.btn-signup:hover,
-.btn-login:hover {
-  opacity: 0.8;
-}
 
 .container {
   padding: 16px;
